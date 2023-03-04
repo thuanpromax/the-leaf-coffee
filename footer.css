@@ -1,0 +1,230 @@
+/* footer */
+.footer {
+    background: #EFEFEF;
+    height: fit-content;
+}
+.footer_content {
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    height: fit-content;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.osc {
+    left: 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 915px;
+    height: 197px;
+
+}
+
+.osc ul {
+    width: 305px;
+    padding: 0px;
+}
+
+.osc ul a {
+    padding-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+
+    color: #505054;
+
+
+}
+
+.osc ul li {
+    padding-top: 25px;
+}
+
+/* socialicons */
+
+.socialicons {
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 0px;
+    gap: 10px;
+
+    width: 289px;
+    height: 174px;
+    top: 0px;
+
+}
+
+.join_email {
+    width: 289px;
+    height: 116px;
+}
+
+.join_email a {
+    /* Join our email list for 10% off your first order */
+
+    padding-left: 8px;
+    width: 262.34px;
+    height: 36px;
+    left: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+
+    color: #505054;
+}
+
+.em_inp {
+    display: flex;
+    padding: 8px;
+}
+
+.join_email input {
+    /* input#email */
+
+
+    box-sizing: border-box;
+
+    height: 40px;
+    width: 228px;
+    left: 0px;
+    right: 44.77px;
+    top: 0px;
+
+    background: #EFEFEF;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #505054;
+}
+
+.join_email input:focus {
+    outline: none;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #505054;
+}
+
+.em_inp button {
+    border: none;
+    padding: 0px;
+}
+
+.em_inp button img {
+    padding: 0px;
+}
+
+::placeholder {
+    padding: 9px;
+
+}
+
+.more_socialicons {
+    display: flex;
+    justify-content: space-between;
+    width: 273px;
+    padding: 8px;
+}
+
+.more_socialicons button {
+    border: none;
+    padding: 0px;
+
+}
+
+.more_socialicons img {
+    height: 25.06px;
+}
+
+.cpy_r {
+    padding-top: 80px;
+    width: 1220px;
+    height: 68px;
+    display: flex;
+}
+.cpy_r .right{
+    right: 0px;
+
+}
+.cpy_r .right a {
+
+    width: 519.03px;
+    height: 68px;
+    top: -1px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    /* or 142% */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-indent: 4.35938px;
+
+    color: #8A8A8D;
+}
+
+.cpy_r .left {
+    width: 701px;
+    height: 68px;
+    left: 0px;
+    right: 524.59px;
+    top: 0px;
+
+}
+
+.cpy_r .left a {
+    width: 502.47px;
+    height: 16px;
+    left: 0px;
+    top: 29px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+
+    display: flex;
+    align-items: center;
+
+    color: #8A8A8D;
+}
+
+.cpy_r img {
+    width: 202px;
+    height: 39.56px;
+    left: -1px;
+    top: -11px;
+
+}
+
